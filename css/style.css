@@ -1,11 +1,26 @@
 
+body{
+	background-color: green;
+	margin:0;
+}
+.content {
+	width: 970px;
+	margin: 0 auto;
+}
+.introduction {
+	background-image: url("../images/background.jpg")
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 970px;
     height: 70px;
-    margin: 0 auto;
+
 }
 .top-navigation .links {
     float: right;
@@ -27,4 +42,10 @@
     cursor: pointer;
     color: #333333;
 }
+.logo {
+	padding-top: 13px;
+	padding-left: 12px;
+}
+
+
 
